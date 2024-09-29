@@ -37,7 +37,6 @@ def upload_frame():
     # Extract predictions
     predictions = result.get('predictions', [])
     class_values = [pred['class'] for pred in predictions] if predictions else []
-
     return jsonify({"predictions": class_values})
 
 if __name__ == '__main__':
