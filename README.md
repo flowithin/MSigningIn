@@ -3,7 +3,7 @@
 Here are some documentation along developing:
 ### GOALs:
 - video and text translator/text to video
-- gui
+- gui improvements
 - more letters 
 - data collection
 ### pitch:
